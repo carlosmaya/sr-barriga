@@ -14,6 +14,10 @@ gem 'bourbon'
 gem 'neat'
 gem 'normalize-rails'
 
+group :development do
+  gem 'erb2haml'
+end
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'byebug'
