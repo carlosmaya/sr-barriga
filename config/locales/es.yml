@@ -1,4 +1,6 @@
 es:
   layouts:
+    home:
+      title: "Sr. Barriga"
     application:
-      title: "Barriga On Rails"
+      title: "Sr. Barriga"
