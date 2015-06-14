@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'haml'
 gem 'bourbon'
+gem 'neat'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
