@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'haml'
 gem 'bourbon'
 gem 'neat'
+gem 'normalize-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
