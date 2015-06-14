@@ -10,6 +10,13 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'haml'
+gem 'bourbon'
+gem 'neat'
+gem 'normalize-rails'
+
+group :development do
+  gem 'erb2haml'
+end
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
