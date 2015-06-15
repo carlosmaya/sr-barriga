@@ -25,3 +25,4 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'coveralls', require: false
