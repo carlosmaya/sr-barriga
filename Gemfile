@@ -13,6 +13,7 @@ gem 'haml'
 gem 'bourbon'
 gem 'neat'
 gem 'normalize-rails'
+gem 'devise'
 
 group :development do
   gem 'erb2haml'
