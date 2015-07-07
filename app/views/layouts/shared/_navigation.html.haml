@@ -1,8 +1,8 @@
-%header.navigation{:role => "banner"}
+%header.navigation{role: "banner"}
   .navigation-wrapper
-    %a.logo{:href => "javascript:void(0)"}
-      = image_tag "logo-icon-32.png"
-    %a#js-mobile-menu.navigation-menu-button{:href => "javascript:void(0)"} MENU
-    %nav{:role => "navigation"}
+    = link_to image_tag("logo-icon-32.png"), root_path, class: "logo"
+    - unless user_signed_in?
+      = link_to t(".sign_in"), new_user_session_path, id: "js-mobile-menu", class: "js-mobile-menu navigation-menu-button"
+    %nav{role: "navigation"}
       %ul#js-navigation-menu.navigation-menu.show
         %li.nav-link

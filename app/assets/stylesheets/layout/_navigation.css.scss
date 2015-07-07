@@ -55,10 +55,6 @@ header.navigation {
     padding-right: 1em;
     text-transform: uppercase;
 
-    @include media ($horizontal-bar-mode) {
-      display: none;
-    }
-
     &:focus,
     &:hover {
       color: $navigation-color-hover;
