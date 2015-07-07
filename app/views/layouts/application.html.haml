@@ -8,5 +8,9 @@
     = csrf_meta_tags
   %body
     = render partial: "layouts/shared/navigation"
+      %p.notice
+        = notice
+      %p.alert
+        = alert
     .container
       = yield

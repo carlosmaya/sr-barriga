@@ -4,3 +4,6 @@ es:
       title: "Sr. Barriga"
     application:
       title: "Sr. Barriga"
+    shared:
+      navigation:
+        sign_in: "Iniciar Sesión"
