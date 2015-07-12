@@ -46,6 +46,7 @@ GEM
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
+    cancancan (1.12.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -150,6 +151,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
+    rolify (4.0.0)
     rspec-core (3.2.3)
       rspec-support (~> 3.2.0)
     rspec-expectations (3.2.1)
@@ -222,6 +224,7 @@ PLATFORMS
 DEPENDENCIES
   bourbon
   byebug
+  cancancan
   coffee-rails (~> 4.1.0)
   coveralls
   devise
@@ -234,6 +237,7 @@ DEPENDENCIES
   normalize-rails
   pg
   rails (= 4.2.1)
+  rolify
   rspec-rails (~> 3.0)
   sass-rails (~> 5.0)
   spring

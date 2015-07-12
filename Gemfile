@@ -15,6 +15,8 @@ gem 'neat'
 gem 'normalize-rails'
 gem 'devise'
 gem 'devise-i18n'
+gem 'cancancan'
+gem 'rolify'
 
 group :development do
   gem 'erb2haml'
